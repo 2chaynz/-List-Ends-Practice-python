@@ -1,0 +1,7 @@
+#EX12 List Ends
+
+a = [5, 10, 15, 20, 25]
+
+def end(L:list):
+    a = [ x for x in L if x==L[0] or x==L[-1]  ]
+    return a    # a is modified
